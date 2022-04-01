@@ -1,6 +1,5 @@
 def func():
-    print("func")
-    
+    print("func")    
 
 def egg():
     print("egg")
