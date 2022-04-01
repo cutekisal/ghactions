@@ -23,7 +23,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@ca5b3b30ef6520c29fda6e68ae9ebf40eb8a301b
+      - uses: actions/checkout@main
       
       - name: Run Black on code
         uses: psf/black@stable
